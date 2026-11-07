@@ -72,19 +72,41 @@ AlphaYou provides US stock research and Hyperliquid trading tools, offering smar
 
 Everything profiled for alphayou-net is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/alphayou-net/](https://apis.io/providers/alphayou-net/)** — or go straight to one of the APIs or properties below.
 
-### APIs (1)
+### APIs (3)
 
 - [alphayou-net Alpha You API](https://apis.io/apis/alphayou-net/alphayou-net-alphayou-api/) — The AlphaYou API from alphayou-net — 13 operation(s) for alphayou.
+- [alphayou-net Products API](https://apis.io/apis/alphayou-net/alphayou-net-products-api/) — Baskets and the consensus vault.
+- [alphayou-net Traders API](https://apis.io/apis/alphayou-net/alphayou-net-traders-api/) — Scored Hyperliquid traders and their positions.
 
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [alphayou-net-mcp.yml](https://apis.io/servers/alphayou-net/alphayou-net-mcp-yml/)
 
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
 - [Alphayou Net Agentic Access](https://apis.io/agentic-access/alphayou-net/alphayou-net-agentic-access/)
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [TraderDetail](https://apis.io/schemas/alphayou-net/alphayou-net-trader-detail/)
+- [TraderFeed](https://apis.io/schemas/alphayou-net/alphayou-net-trader-feed/)
+- [TraderMeta](https://apis.io/schemas/alphayou-net/alphayou-net-trader-meta/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Alphayou Net Context](https://apis.io/jsonld/alphayou-net/alphayou-net-context/)
 
 #### Governance rules (1)
 
@@ -99,10 +121,11 @@ Authentication, trust centre, and vulnerability disclosure.
 - [Alphayou Net Authentication](https://apis.io/security/alphayou-net/alphayou-net-authentication/)
 - [Alphayou Net Domain Security](https://apis.io/security/alphayou-net/alphayou-net-domain-security/)
 
-#### Plans and pricing (1)
+#### Plans and pricing (2)
 
 Published plans, tiers and prices.
 
+- [Alphayou Net Api Plans](https://apis.io/plans/alphayou-net/alphayou-net-api-plans/)
 - [Alphayou Net Plans Pricing](https://apis.io/plans/alphayou-net/alphayou-net-plans-pricing/)
 
 ## Where to find this API
@@ -119,32 +142,32 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 49.9** — developing · rubric 0.25.0 · scored 2026-10-30
+**Kin Score 42.2** — developing · rubric 0.27.0 · scored 2026-11-07
 
 | Facet | Score |
 |---|---|
-| Discoverability | 69.6 |
-| Contract quality | 48.6 |
-| Contract governance | 79.1 |
+| Discoverability | 81.7 |
+| Contract quality | 62.0 |
+| Contract governance | 22.0 |
 | Operational transparency | 0.0 |
-| Developer ergonomics | 27.9 |
-| Access clarity | 67.9 |
+| Developer ergonomics | 25.6 |
+| Access clarity | 51.3 |
 
-**Agent readiness 33.0** — agent-ready
+**Agent readiness 30.8** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | verified |
 | Auth Clarity | bearer (partial credit) |
 | Idempotency | — |
-| Error Semantics | derived (partial credit) |
+| Error Semantics | verified |
 | OpenAPI Examples | partial |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
-| Agent Skills | unknown |
+| Agent Skills | derived (partial credit) |
 | Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
@@ -153,10 +176,11 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
-| Pagination Ratio | na |
+| Pagination Ratio | partial |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
 
-**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 23.0** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/alphayou-net/](https://apis.io/providers/alphayou-net/).
 
